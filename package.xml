@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>sphinx_jinja</name>
+  <version>1.1.1</version>
+  <description>A sphinx extension to include jinja based templates based documentation into a sphinx doc</description>
+  <maintainer email="pierre.tardy@intel.com">tardyp</maintainer>
+  <license>MIT</license>
+
+  <depend>python3-sphinx</depend>
+  <depend>python3-docutils</depend>
+  <depend>python3-jinja2</depend>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <export><build_type>ament_python</build_type></export>
+
+</package>
