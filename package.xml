@@ -11,7 +11,5 @@
   <depend>python3-docutils</depend>
   <depend>python3-jinja2</depend>
 
-  <buildtool_depend>ament_python</buildtool_depend>
-  <export><build_type>ament_python</build_type></export>
-
+  <export><build_type>python</build_type></export>
 </package>
